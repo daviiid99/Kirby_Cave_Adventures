@@ -23,7 +23,7 @@ class Kirby :
 		self.kirby_y = 470
 
 		# Define Kirby speds
-		self.walking_speed = 25
+		self.walking_speed = 15
 		self.running_speed = 30
 
 		# Define kirby containers
@@ -139,7 +139,7 @@ class Kirby :
 
 							while current_anim < 10 :
 								if self.isPressed :
-									self.clock.tick(244)
+									self.clock.tick(300)
 									self.current_kirby_anim = animation
 									current_anim +=1
 
@@ -154,7 +154,7 @@ class Kirby :
 
 							while current_anim < 10 :
 								if self.isPressed :
-									self.clock.tick(244)
+									self.clock.tick(300)
 									self.current_kirby_anim = animation
 									current_anim +=1
 
